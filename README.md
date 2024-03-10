@@ -19,7 +19,7 @@ These instructions will get your copy of the project up and running on your loca
 After creating the venv in the root directory execute the following command:
 
 ```bash
-git clone https://github.com/AashishNandakumar/SF-backend.git
+https://github.com/100percentBAKA/sf-backend.git
 ```
 
 ### Setting Up a Virtual Environment
@@ -57,8 +57,14 @@ With the virtual environment activated, install the project dependencies by runn
 ```bash
 pip install -r requirements.txt
 ```
-
 This command reads the `requirements.txt` file in your project directory and installs all the necessary packages listed there.
+
+### Installing redis ( linux )
+
+```bash
+sudo apt update
+sudo apt install redis-server
+```
 
 ### Applying Migrations
 
